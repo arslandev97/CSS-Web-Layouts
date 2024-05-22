@@ -1,0 +1,101 @@
+body{
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+
+}
+
+#wrapper{
+    border: 1px solid black;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+#header{
+    background-color: crimson;
+    height: 100px;
+    color: white;
+}
+#header h2{
+    margin: 0;
+    padding: 40px 0 0 20px;
+}
+
+
+#menu{
+    background-color: lightsalmon;
+}
+
+#menu ul{
+    margin: 0;
+    padding: 0;
+}
+
+#menu li{
+    display: inline-block;
+}
+
+#menu li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 15px;
+
+}
+
+#menu li a:hover{
+    background-color: crimson;
+    color: white;
+}
+
+
+#content{
+    width: 800px;
+    float: left;
+    min-height: 700px;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+#sidebar{
+    background-color: lightblue;
+    width: 200px;
+    float: right;
+    min-height: 700px;
+}
+
+#sidebar ul li {
+    margin-bottom: 30px;
+}
+
+#sidebar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+#sidebar a:hover{
+    background-color: lightcoral;
+    color: white;
+}
+
+#footer{
+    background-color: lightsalmon;
+    padding: 5px 10px;
+    text-align: center;
+    clear: both;
+}
+
+
